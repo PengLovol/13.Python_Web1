@@ -15,7 +15,7 @@ Web : HTML CSS Javascript
 		服务器 ：接收用户请求并响应
 		通信协议 ：规范数据在网络中是如何打包即传递的
 			http : HyperText transfer protocal
-			超文本传输协议
+			       超文本传输协议
 	3. Web 服务器
 		1. 作用 ：
 			接收用户请求并响应
@@ -135,7 +135,7 @@ Web : HTML CSS Javascript
 			2. 注释不能嵌套
 	4. HTML 中的换行于空格
 		HTML文档会忽略掉多余的空格，只显示为一个空格，如果需要显示多个空格或者 < > ，都需要使用特殊符号代替
-4. HTML结构组成
+4. HTML结构组成 :02-page.html
 	1. 文档的类型声明
 		<!doctype html> h5的声明方式
 		作用 ： 告诉浏览器当前使用的HTML版本，以便浏览器能正确解析HTML标签和渲染样式
@@ -155,7 +155,7 @@ Web : HTML CSS Javascript
 			2. 设置网页的字符编码
 				<meta charset="utf-8">
 				浏览器按照utf-8的编码方式解析网页
-5. 文本相关的标签
+5. 文本相关的标签 : 02-page.html
 	1. 字符实体（具有特殊意义的符号）
 		1. &nbsp; 表示一个空格
 		2. &lt;   表示小于号 <
@@ -169,7 +169,7 @@ Web : HTML CSS Javascript
 		4. 文本添加删除线 ：<s></s>
 		5. 上标显示文本 ： <sup></sup>
 		6. 下标显示文本 ： <sub></sub>
-		练习 ：
+		练习 ：03-page.html
 			这是一段有加粗，斜体，删除线，下划线，上标和下标的文本
 		特点 ：这些标签可以与其他的标签或文本共行显示
 	3. 标题标签
@@ -180,7 +180,7 @@ Web : HTML CSS Javascript
 			<h1></h1> ：一级标题
 			...
 			<h6></h6> : 六级标题
-			练习 ：
+			练习 ：03-page.html
 				咏鹅
 				骆宾王
 				鹅 ，鹅，鹅，
@@ -194,17 +194,17 @@ Web : HTML CSS Javascript
 				4. 每个标题都可以添加属性 align
 					取值 ：left / center / right
 					设置文本的水平对齐方式，默认居左对齐
-	4. 段落标签
+	4. 段落标签:03-page.html
 		1. 作用
 			突出显示一段文本，每段文本都独占一行或一块，不予其他元素共行显示，并且也具备垂直的空白距离
 		2. 语法
 			<p></p>
 			属性 align 设置文本的水平对齐方式
 			取值 left / center / right
-	5. 格式标签
+	5. 格式标签:03-page.html
 		换行标签 <br> 等同于 <br/>
-		水平线标签 <hr> 等同于 <hr/>
-	6. 分区标签
+		水平线标签 <hr> 等同于 <hr/>                   作业１：04-page-exer.html
+	6. 分区标签:03-page.html
 		1. 块分区
 			标签 ：<div></div>
 			作用 ：划分页面结构，配合CSS实现网页布局
@@ -221,7 +221,7 @@ Web : HTML CSS Javascript
 		2. 行内元素 / 内联元素
 			可以与其他元素共行显示的元素
 			例如 ：i b u s sub sup span
-6. 列表标签
+6. 列表标签:05-list.html
 	1. 作用
 		按照从上到下的方式来排列数据
 		并且能够显示项目符号在数据的前面
@@ -287,7 +287,7 @@ Web : HTML CSS Javascript
 				1. 大师兄
 				2. 二师兄
 				3. 沙师弟
-7. 图像与超链接标签
+7. 图像与超链接标签:06-img.html
 	1. URL
 		Uniform Resource Locator
 		统一资源定位符 ：用来标识网络中资源的位置，俗称路径
