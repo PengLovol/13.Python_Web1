@@ -5,11 +5,12 @@
 			取值 ：px
 		2. 指定字体名称
 			属性 ：font-family
-			取值 ：字体名称，如果出现多个名称，使用,隔开
+			取值 ：字体名称，如果出现多个e名称，使用,隔开
 			注意 ：如果字体名称中出现中文或者空格，要是用引号引起来
 			et :
 				font-family : Arial,serif;
-				font-family : "微软雅黑","黑体";
+				font-family : "微软雅
+				黑","黑体";
 				font-family : "Microsoft YaHei";
 		3. 设置字体加粗
 			属性 ：font-weight
@@ -36,7 +37,7 @@
 				font : 18px "黑体";
 				font : 18px "黑体",serif;
 
-	2. 文本属性
+	2. 文本属性:03-line-height.html
 		1. 文本颜色
 			属性 ：color
 			取值 ：颜色值
@@ -66,14 +67,14 @@
 				line-height > height  文本偏下
 				line-height < height  文本偏上
 			注意 ：一行文本 在当前行中一定是垂直居中的，上下的空隙由浏览器自动分配
-		4. 文本装饰线
+		4. 文本装饰线:03-line-height.html
 			属性 ：text-decoration
 			取值 ：
 				1. underline :下划线
 				2. overline  :上划线
 				3. line-through :删除线
 				4. none : 针对超链接，取消默认下划线
-2. 表格属性
+2. 表格属性:04-table.html
 	1. 基础样式属性是通用的
 		width height background color margin padding...
 	2. 独有的CSS属性
@@ -94,7 +95,7 @@
 				两个值之间使用空格隔开
 			3. 注意 ：
 				只能在表格边框分离状态下使用
-3. 过渡效果
+3. 过渡效果:05-transition.html
 	1. 过渡效果指的是元素CSS属性值在变化时的一种平滑效果
 	2. 语法 ：
 		1. 指定过渡属性
@@ -146,8 +147,8 @@
 		5. 使用注意 ：
 			1. 其他属性都可以省略（transition-property，timing-function，delay）过渡时长duration必须设置，否则CSS样式的变化就又成瞬时变化，没有过渡效果了
 			2. 使用过渡相关的属性时，要定义在元素的默认样式中，不能写在伪类选择器中，会影响过渡效果
-			练习 ：
-				1. 创建200 * 200 的元素，背景色为红色
+			练习 ：05-transition.html
+				1. 创建200 * 200 的元素，背景x色为红色
 				2. 鼠标悬停时：
 					1. 尺寸400 * 400
 					2. 背景颜色变为绿色
@@ -157,14 +158,14 @@
 			属性 ： transition
 			取值 ： property duration timing-function delay
 			注意 ： duration 必须写
-4. 布局方式
+4. 布局方式(重点)
 	1. 设置元素在网页中的排列方式和位置
 	2. 分类
 		1. 普通流布局/标准流布局/文档流布局
 			默认布局方式
 			特点 ：
 				将元素按照书写顺序和元素类型，从左向右，从上至下排列
-		2. 浮动布局
+		2. 浮动布局：06-float.html
 			属性 ：float
 			取值 ：left / right / none(默认值)
 				left :元素向左浮动，停靠在其他元素的边缘

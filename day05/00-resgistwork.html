@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title></title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="00-regist.css">
 </head>
 <body>
-	<div id="container">
-		<!-- 1. 标题 -->
+    <div id="container">
+       	<!-- 1. 标题 -->
 		<h2>会员登录</h2>
 		<!-- 2. 主体分两部分 -->
 		<div class="left">
@@ -29,24 +29,25 @@
 				<div class="form-line">
 					<p></p>
 					<div>
-						<input type="checkbox" name="isSaved"> 记住密码
-						<p>
+						<p class="forget">
 							<a href="#">忘记密码</a>
 							<a href="#">快捷登录</a>
 						</p>
+                        <input type="checkbox" name="isSaved" class="isSaved"> 记住密码
 					</div>
 				</div>
-				<!-- 最后 -->
-				<div class="form-line">
-					<p></p>
-					<div>
-						<input type="submit" name="" value="登录">
-						<a href="#">会员注册</a>
-					</div>
-				</div>
+                <!-- 最后 -->
+                <div class="form-line">
+                    <p></p>
+                    <div>
+                         <input type="submit" name="" value="登录" class="loginBtn">
+                         <a href="#" class="registBtn">注册会员</a>
+                    </div>
 
-			</form>
-		</div>
-	</div>
+                </div>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
